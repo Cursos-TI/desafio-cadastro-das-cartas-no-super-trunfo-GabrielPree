@@ -18,10 +18,12 @@ int main() {
     // Solicite ao usuÃ¡rio que insira as informaÃ§Ãµes de cada cidade, como o cÃ³digo, nome, populaÃ§Ã£o, Ã¡rea, etc.
     printf("Digite o nome da cidade: ");
     scanf(" %[^\n]", nome);
+    printf("Digite a populacao da cidade: ");
+    scanf("%d", &populacao);
     
     // ExibiÃ§Ã£o dos Dados das Cartas:
     // SugestÃ£o: Utilize a funÃ§Ã£o printf para exibir as informaÃ§Ãµes das cartas cadastradas de forma clara e organizada.
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
     printf("Nome da Cidade: %s\n", nome);
-
+    printf("Populacao: %d\n", populacao);
 }
