@@ -22,11 +22,13 @@ int main() {
     scanf("%d", &populacao);
     printf("Digite a area da cidade: ");
     scanf("%f", &area);
-    
+    printf("Digite o PIB da cidade: ");
+    scanf("%f", &pib);
     // ExibiÃ§Ã£o dos Dados das Cartas:
     // SugestÃ£o: Utilize a funÃ§Ã£o printf para exibir as informaÃ§Ãµes das cartas cadastradas de forma clara e organizada.
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
     printf("Nome da Cidade: %s\n", nome);
     printf("População: %d\n", populacao);
     printf("Area: %.2f km²\n", area);
+    printf("PIB: %.2f\n", pib);
 }
