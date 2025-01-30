@@ -21,6 +21,10 @@ int main() {
     scanf("%f", &pib);
     printf("Digite o numero de pontos turisticos da cidade: ");
     scanf("%d", &ponto);
+
+    //Calculos
+    pibpercapita = (float) pib / populacao;//usei casting para garantir a precisão e evitar perda de dados
+    densidade = populacao / area;
     
     //Saida de dados
     printf("Nome da Cidade: %s\n", nome);
