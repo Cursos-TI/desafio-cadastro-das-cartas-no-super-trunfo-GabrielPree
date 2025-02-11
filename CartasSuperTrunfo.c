@@ -8,6 +8,7 @@
     double pib;
     double pibpercapita;
     float densidade;
+    double superpoder;
 
 //Função genérica para entrada de dados
 void entradaDados() {
@@ -29,6 +30,7 @@ float calculos() {
     // código para a função calculos
     pibpercapita = (float) pib / populacao;//usei casting para garantir a precisão e evitar perda de dados
     densidade = populacao / area;
+    superpoder = (double)populacao + ponto + pibpercapita + densidade + pib + area;
 }
  
 // Função genérica para exibir dados
@@ -41,6 +43,7 @@ void exibirDados() {
     printf("Numero de pontos turisticos: %d\n", ponto);
     printf("PIB per capita: %.2lf\n", pibpercapita);
     printf("Densidade Populacional: %.2f hab/km²\n", densidade);
+    printf("Superpoder: %.2lf\n", superpoder);
 }
  
 int main() {
