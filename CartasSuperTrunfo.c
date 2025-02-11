@@ -30,7 +30,7 @@ float calculos() {
     // código para a função calculos
     pibpercapita = (float) pib / populacao;//usei casting para garantir a precisão e evitar perda de dados
     densidade = populacao / area;
-    superpoder = (double)populacao + ponto + pibpercapita + densidade + pib + area;
+    superpoder = (double)populacao + ponto + pibpercapita + densidade + pib + area;//Super Poder = Soma de todas propriedades
 }
  
 // Função genérica para exibir dados
